@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.app {
+  background-color: #ffffff;
+  height: 100vh;
+}
