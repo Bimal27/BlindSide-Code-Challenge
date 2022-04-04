@@ -10,7 +10,7 @@ const Details = ({ match }) => {
       let id = match.params.imdbID
       if (id) {
         let response = await fetch(
-          'http://www.omdbapi.com/?apikey=f7c25f33&i=' + id,
+          'https://www.omdbapi.com/?apikey=f7c25f33&i=' + id,
         )
         let data = await response.json()
         setMovie(data)

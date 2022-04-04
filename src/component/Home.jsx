@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       let response = await fetch(
-        `http://www.omdbapi.com/?apikey=f7c25f33&s=love&romance`,
+        `https://www.omdbapi.com/?apikey=f7c25f33&s=love&romance`,
       )
       let data = await response.json()
       setMovies(data.Search)
